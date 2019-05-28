@@ -21,6 +21,7 @@ namespace EstudoProva.Models
         [Required(ErrorMessage = "O Campo Duração do Semestre deve ser preenchido")]
         public int duracao_semestres { get; set; }
 
+        //Inicio Editado - foram adicionados os atributos abaixo para relacionameto
         [Display(Name = "Lista de Alunos")]
         public virtual ICollection<Aluno> ListaAlunos { get; set; }
 

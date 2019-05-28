@@ -9,6 +9,7 @@ namespace EstudoProva.Models
 {
     public class CursoDisciplina
     {
+        //Inicio Editado - foram adicionados todos os atributos abaixo para relacionameto N:N
         [Key]
         public int ID { get; set; }
 

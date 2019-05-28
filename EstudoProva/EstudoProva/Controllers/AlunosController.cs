@@ -19,12 +19,10 @@ namespace EstudoProva.Controllers
         }
 
         // GET: Alunos
-        // .Include(c=>c.curso)
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Aluno
-                                .Include(c=>c.curso)
-                                .ToListAsync());
+            // .Include(c=>c.curso)
+            return View(await _context.Aluno.Include(c=>c.curso) .ToListAsync());
         }
 
         // GET: Alunos/Details/5
@@ -46,22 +44,19 @@ namespace EstudoProva.Controllers
         }
 
         // GET: Alunos/Create
-        //ViewBag.ListaCursos = new SelectList (_context.Curso.ToList(), "identificador", "nome");
         public IActionResult Create()
         {
-            ViewBag.ListaCursos = new SelectList(_context.Curso.ToList(), 
-                                                     "identificador",
-                                                           "nome");
+            //Adicionado - ViewBag.ListaCursos = new SelectList (_context.Curso.ToList(), "identificador", "nome");
+            ViewBag.ListaCursos = new SelectList(_context.Curso.ToList(),"identificador","nome");
             return View();
         }
 
         // POST: Alunos/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-
-        //Incio Editado public async Task<IActionResult> Create([Bind("ra,nome,data_nasc,cpf,rg,mae,pai,local_nasc,sexo,cursoID")] Aluno aluno)
         [HttpPost]
         [ValidateAntiForgeryToken]
+        //Adicionado cursoID no public async
         public async Task<IActionResult> Create([Bind("ra,nome,data_nasc,cpf,rg,sexo,cursoID")] Aluno aluno)
         {
             if (ModelState.IsValid)
@@ -86,20 +81,17 @@ namespace EstudoProva.Controllers
             {
                 return NotFound();
             }
-            ViewBag.ListaCursos = new SelectList(_context.Curso.ToList(),
-                                            "identificador",
-                                            "nome",
-                                            aluno.cursoID);
+            //Adiconado - ViewBag.ListaCursos = new SelectList(_context.Curso.ToList(),"identificador","nome", aluno.cursoID);
+            ViewBag.ListaCursos = new SelectList(_context.Curso.ToList(), "identificador","nome",aluno.cursoID);
             return View(aluno);
         }
 
         // POST: Alunos/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-
-        //Incio Editado public async Task<IActionResult> Create([Bind("ra,nome,data_nasc,cpf,rg,mae,pai,local_nasc,sexo,cursoID")] Aluno aluno)
         [HttpPost]
         [ValidateAntiForgeryToken]
+        //Adicionando cursoID
         public async Task<IActionResult> Edit(string id, [Bind("ra,nome,data_nasc,cpf,rg,sexo,cursoID")] Aluno aluno)
         {
             if (id != aluno.ra)

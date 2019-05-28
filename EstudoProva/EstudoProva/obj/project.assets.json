@@ -13133,11 +13133,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Fatec - Gestão Tec Informação\\4º Semestre\\Programação para Internet\\Curso_PPI\\EstudoProva\\EstudoProva\\EstudoProva.csproj",
+      "projectUniqueName": "D:\\GitHub\\andrealss\\PPI-ProgramacaoInternet\\EstudoProva\\EstudoProva\\EstudoProva.csproj",
       "projectName": "EstudoProva",
-      "projectPath": "D:\\Fatec - Gestão Tec Informação\\4º Semestre\\Programação para Internet\\Curso_PPI\\EstudoProva\\EstudoProva\\EstudoProva.csproj",
+      "projectPath": "D:\\GitHub\\andrealss\\PPI-ProgramacaoInternet\\EstudoProva\\EstudoProva\\EstudoProva.csproj",
       "packagesPath": "C:\\Users\\asantos\\.nuget\\packages\\",
-      "outputPath": "D:\\Fatec - Gestão Tec Informação\\4º Semestre\\Programação para Internet\\Curso_PPI\\EstudoProva\\EstudoProva\\obj\\",
+      "outputPath": "D:\\GitHub\\andrealss\\PPI-ProgramacaoInternet\\EstudoProva\\EstudoProva\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

@@ -26,12 +26,14 @@ namespace EstudoProva.Migrations
                         column: x => x.cursoID,
                         principalTable: "Curso",
                         principalColumn: "identificador",
+                        //Alterado onDelete: ReferentialAction.Cascade); para .Restrict
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_CursoDisciplina_Disciplina_disciplinaID",
                         column: x => x.disciplinaID,
                         principalTable: "Disciplina",
                         principalColumn: "identificador",
+                        //Alterado onDelete: ReferentialAction.Cascade); para .Restrict
                         onDelete: ReferentialAction.Restrict);
                 });
 

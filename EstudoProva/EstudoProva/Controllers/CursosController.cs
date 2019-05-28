@@ -122,7 +122,7 @@ namespace EstudoProva.Controllers
             {
                 return NotFound();
             }
-
+            //Adicionado .Include(l => l.ListaAlunos)
             var curso = await _context.Curso
                 .Include(l => l.ListaAlunos)
                 .SingleOrDefaultAsync(m => m.identificador == id);

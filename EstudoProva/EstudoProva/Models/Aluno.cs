@@ -39,6 +39,7 @@ namespace EstudoProva.Models
         [Required(ErrorMessage = "Sexo deve ser preenchido")]
         public string sexo { get; set; }
 
+        //Inicio Editado - foram adicionados os atributos abaixo para relacionameto
         public int cursoID { get; set; }
 
         public Curso curso { get; set; }

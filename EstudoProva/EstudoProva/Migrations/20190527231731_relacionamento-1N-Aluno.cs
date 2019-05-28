@@ -25,6 +25,7 @@ namespace EstudoProva.Migrations
                 column: "cursoID",
                 principalTable: "Curso",
                 principalColumn: "identificador",
+                //Alterado onDelete: ReferentialAction.Cascade); para .Restrict
                 onDelete: ReferentialAction.Restrict);
         }
 
