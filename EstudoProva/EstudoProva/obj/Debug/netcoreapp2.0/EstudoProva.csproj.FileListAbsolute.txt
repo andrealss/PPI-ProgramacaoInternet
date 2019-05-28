@@ -1,0 +1,11 @@
+D:\Fatec - Gestão Tec Informação\4º Semestre\Programação para Internet\Curso_PPI\EstudoProva\EstudoProva\bin\Debug\netcoreapp2.0\EstudoProva.deps.json
+D:\Fatec - Gestão Tec Informação\4º Semestre\Programação para Internet\Curso_PPI\EstudoProva\EstudoProva\bin\Debug\netcoreapp2.0\EstudoProva.runtimeconfig.json
+D:\Fatec - Gestão Tec Informação\4º Semestre\Programação para Internet\Curso_PPI\EstudoProva\EstudoProva\bin\Debug\netcoreapp2.0\EstudoProva.runtimeconfig.dev.json
+D:\Fatec - Gestão Tec Informação\4º Semestre\Programação para Internet\Curso_PPI\EstudoProva\EstudoProva\bin\Debug\netcoreapp2.0\EstudoProva.dll
+D:\Fatec - Gestão Tec Informação\4º Semestre\Programação para Internet\Curso_PPI\EstudoProva\EstudoProva\obj\Debug\netcoreapp2.0\EstudoProva.csprojResolveAssemblyReference.cache
+D:\Fatec - Gestão Tec Informação\4º Semestre\Programação para Internet\Curso_PPI\EstudoProva\EstudoProva\obj\Debug\netcoreapp2.0\EstudoProva.csproj.CoreCompileInputs.cache
+D:\Fatec - Gestão Tec Informação\4º Semestre\Programação para Internet\Curso_PPI\EstudoProva\EstudoProva\obj\Debug\netcoreapp2.0\EstudoProva.AssemblyInfoInputs.cache
+D:\Fatec - Gestão Tec Informação\4º Semestre\Programação para Internet\Curso_PPI\EstudoProva\EstudoProva\obj\Debug\netcoreapp2.0\EstudoProva.AssemblyInfo.cs
+D:\Fatec - Gestão Tec Informação\4º Semestre\Programação para Internet\Curso_PPI\EstudoProva\EstudoProva\bin\Debug\netcoreapp2.0\EstudoProva.pdb
+D:\Fatec - Gestão Tec Informação\4º Semestre\Programação para Internet\Curso_PPI\EstudoProva\EstudoProva\obj\Debug\netcoreapp2.0\EstudoProva.dll
+D:\Fatec - Gestão Tec Informação\4º Semestre\Programação para Internet\Curso_PPI\EstudoProva\EstudoProva\obj\Debug\netcoreapp2.0\EstudoProva.pdb
